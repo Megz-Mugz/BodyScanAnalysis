@@ -1,0 +1,70 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #111;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    background: #333;
+}
+
+.logo-container {
+    max-width: 75px;
+    margin-right: auto;
+}
+
+.company-logo {
+    width: 90%;
+    display: block;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.drop-box {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #d81b60;
+    margin: 20px auto;
+    position: relative;
+}
+
+.drop-box input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.drop-box label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+    color: #d81b60;
+}
+
+footer {
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
